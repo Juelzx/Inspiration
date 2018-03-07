@@ -3,6 +3,8 @@ import pandas as pd
 
 from helper import get_firefox_path
 
+__author__ = "Julian Scholler"
+
 path = get_firefox_path("places.sqlite")
 conn = sqlite3.connect(path)
 
